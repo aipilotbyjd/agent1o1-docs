@@ -53,6 +53,8 @@ const config: Config = {
   projectName: 'agent1o1-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
+  onBrokenAnchors: 'throw',
+  markdown: {hooks: {onBrokenMarkdownLinks: 'throw'}},
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -80,6 +82,20 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
+    image: 'img/social-card.png',
+    metadata: [
+      {name: 'keywords', content: 'Agent1o1, AI automation, AI agents, playbooks, workflow automation, no-code, documentation, API'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'theme-color', content: '#66ff4c'},
+    ],
+    announcementBar: {
+      id: 'docs-2026-11-security-ai-steps',
+      content:
+        'New: the <a href="/docs/playbooks/ai-steps">AI steps reference</a> and <a href="/docs/account-and-team/security-and-privacy">Security and privacy</a> pages. See <a href="/docs/help/whats-new">What&apos;s new</a>.',
+      backgroundColor: '#66ff4c',
+      textColor: '#0b1a06',
+      isCloseable: true,
+    },
     colorMode: {
       respectPrefersColorScheme: true,
     },

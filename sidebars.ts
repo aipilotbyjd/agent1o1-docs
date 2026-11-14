@@ -9,7 +9,7 @@ const sidebars: SidebarsConfig = {
       className: 'a1-cat a1-cat-welcome',
       link: {type: 'generated-index', title: 'Welcome', description: 'Start here: your first playbook and the words used in the app.', slug: '/category/welcome'},
       collapsed: false,
-      items: ['welcome/quickstart', 'welcome/key-terms'],
+      items: ['welcome/quickstart', 'welcome/key-terms', 'welcome/core-concepts'],
     },
     {
       type: 'category',
@@ -20,6 +20,7 @@ const sidebars: SidebarsConfig = {
         'account-and-team/sign-in-and-security',
         'account-and-team/team-and-roles',
         'account-and-team/notifications',
+        'account-and-team/security-and-privacy',
       ],
     },
     {
@@ -31,6 +32,7 @@ const sidebars: SidebarsConfig = {
         'playbooks/overview',
         'playbooks/building-playbooks',
         'playbooks/steps',
+        'playbooks/ai-steps',
         'playbooks/flow-control',
         'playbooks/approvals',
         'playbooks/triggers',
@@ -107,7 +109,7 @@ const sidebars: SidebarsConfig = {
       label: 'Help',
       className: 'a1-cat a1-cat-help',
       link: {type: 'generated-index', title: 'Help', description: 'Fix common problems and find quick answers.', slug: '/category/help'},
-      items: ['help/troubleshooting', 'help/faq'],
+      items: ['help/troubleshooting', 'help/faq', 'help/whats-new'],
     },
   ],
 };

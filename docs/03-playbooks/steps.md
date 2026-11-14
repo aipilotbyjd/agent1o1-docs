@@ -13,7 +13,7 @@ Steps are grouped in the library. Search by name or by app.
 | Step | Use it to |
 |---|---|
 | **Ask AI** | Send any prompt to an AI model |
-| **AI Answer** | Answer a question using the text you give it |
+| **AI Answer** | Answer a question from your sources and knowledge base, and cite them |
 | **AI Extract** | Pull specific details (name, date, amount) out of messy text |
 | **AI Classify** | Put text into one of your categories |
 | **AI Score** | Rate something against your own scale |
@@ -26,10 +26,11 @@ Steps are grouped in the library. Search by name or by app.
 | **AI Read File** | Read a PDF or an image and answer questions about it |
 | **AI Image** | Generate an image |
 | **AI Speech** / **AI Transcribe** | Turn text into speech, or speech into text |
+| **AI Route to Agent** | Pick the best of your agents for a task |
 | **Agent** | Run one of your [agents](../04-agents/overview.md) as a step |
 | **Knowledge Search** / **Knowledge Save** | Search or add to your [knowledge](../04-agents/knowledge.md) |
 
-Pick the model for each AI step. Faster models cost fewer credits, larger ones handle harder tasks. See [AI providers](../06-apps-and-keys/ai-providers.md) to use your own keys.
+See the [AI steps reference](./ai-steps.md) for every setting and result. Pick the model for each AI step. Faster models cost fewer credits, larger ones handle harder tasks. See [AI providers](../06-apps-and-keys/ai-providers.md) to use your own keys.
 
 ## Data steps
 
