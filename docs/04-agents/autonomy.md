@@ -18,7 +18,9 @@ Autonomy is how much an agent may do without asking you first.
 | **Smart** | Does low-risk things alone and asks about risky ones |
 | **Autopilot** | Does everything its abilities allow, without asking |
 
+:::tip[Where to start]
 Start with **Ask** or **Plan**, and move up as you gain trust.
+:::
 
 ## Approving requests
 
@@ -38,4 +40,6 @@ Admins can set rules for every agent in **Settings → Agent policy**:
 - Whether **Autopilot may delete** without asking (off by default, so deleting always asks)
 - Named rules that apply to specific tools, for example "always ask before any email tool"
 
+:::note
 The workspace policy always wins over an individual agent's setting.
+:::

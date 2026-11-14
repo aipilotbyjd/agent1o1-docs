@@ -28,5 +28,7 @@ Pending requests appear on the **Approvals** page.
 
 ## Tips
 
+:::tip
 - Test with **Run** before you publish.
 - Use tags such as "live" or "experimental" so teammates know what is safe to touch.
+:::

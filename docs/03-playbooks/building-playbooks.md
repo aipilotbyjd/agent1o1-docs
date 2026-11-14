@@ -23,7 +23,9 @@ The editor is a canvas. Your steps are boxes, and lines between them show where 
 | Delete a step | Select it and press Delete |
 | Test | Choose **Run**, and select any step to see what it received and produced |
 
+:::info
 Your work is saved automatically as you go.
+:::
 
 ## Passing information between steps
 
@@ -45,7 +47,9 @@ Open the AI builder chat in the editor and describe what you want, for example "
 - **Build** mode changes your canvas.
 - **Ask** mode answers questions without changing anything.
 
-Always review what it built and test before publishing.
+:::warning[Review before publishing]
+Always review what the AI builder made and test it before publishing.
+:::
 
 ## Test before you publish
 
@@ -53,7 +57,9 @@ Use **Run** to test with real data. If an earlier step is slow or costs credits,
 
 ## Secrets
 
+:::danger[Keep secrets out of steps]
 Never paste passwords or tokens into a step. Store them in the [Vault](../06-apps-and-keys/vault.md) and reference them.
+:::
 
 ## Next
 

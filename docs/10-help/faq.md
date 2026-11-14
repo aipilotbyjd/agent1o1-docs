@@ -20,11 +20,17 @@ No. You build with steps on a canvas, and the AI builder can set things up from 
 
 ## Are my passwords and keys safe?
 
+:::info
 Connections, Vault secrets and AI keys are encrypted, and values are never shown again after you save them. They're hidden in run history.
+:::
 
 ## Will the AI send emails or change things without asking?
 
-Only if you allow it. Agents and the Assistant follow the autonomy setting you choose, and admins can set a limit for the whole workspace. Smart Inbox creates drafts and never sends them.
+Only if you allow it. Agents and the Assistant follow the autonomy setting you choose, and admins can set a limit for the whole workspace.
+
+:::info
+Smart Inbox creates drafts and never sends them.
+:::
 
 ## What happens when I run out of credits?
 
@@ -38,9 +44,17 @@ Yes. Add your key in **Settings → AI providers**.
 
 Yes, from **Trash**, until you delete it permanently.
 
+:::danger
+Permanent deletion can't be undone.
+:::
+
 ## Can other people use my playbooks without an account?
 
-Yes, through a [Page](../07-pages-and-files/pages.md). Remember each use costs your credits, so add a password if it shouldn't be open.
+Yes, through a [Page](../07-pages-and-files/pages.md).
+
+:::warning
+Each use costs your credits, so add a password if the page shouldn't be open to everyone.
+:::
 
 ## Can I go back to an earlier version?
 

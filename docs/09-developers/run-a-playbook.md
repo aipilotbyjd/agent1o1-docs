@@ -6,7 +6,9 @@ sidebar_position: 2
 
 # Run a playbook from code
 
-Base address: `https://YOUR-API-HOST/api/public/v1`. Send `Authorization: Bearer YOUR_API_KEY` on every call.
+:::info[Base address]
+`https://YOUR-API-HOST/api/public/v1`. Send `Authorization: Bearer YOUR_API_KEY` on every call.
+:::
 
 ## 1. Find the playbook
 

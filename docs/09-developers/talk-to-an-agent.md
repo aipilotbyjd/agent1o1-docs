@@ -30,7 +30,9 @@ curl -X POST .../agents/AGENT_ID/sessions/SESSION_ID/messages \
   -d '{"message": "What is your refund policy?"}'
 ```
 
+:::warning[Allow time for answers]
 Agents can take a while to answer, especially when they use several tools. Allow **at least 2 minutes** before your request times out.
+:::
 
 ## 4. Handle approval requests
 

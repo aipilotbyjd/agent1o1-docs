@@ -15,6 +15,10 @@ The Agent1o1 API lets your own code run playbooks, read results and talk to agen
 3. Choose what the key may do (see below).
 4. **Copy the key now**. It's shown only once. If you lose it, create a new one.
 
+:::danger[Keep your API key secret]
+Use one key per integration, so you can revoke one without affecting others.
+:::
+
 Revoke a key any time from the same page. Use one key per integration, so you can revoke one without affecting others.
 
 ## What a key can do
@@ -28,7 +32,9 @@ Revoke a key any time from the same page. Use one key per integration, so you ca
 | `connectors:manage` | Manage app connections |
 | `*` | Everything |
 
-Give each key only what it needs. Playbooks are called "workflows" in the API.
+:::note[Playbooks are "workflows" in the API]
+Give each key only what it needs. In API paths and permissions, playbooks are called "workflows".
+:::
 
 ## Make a request
 

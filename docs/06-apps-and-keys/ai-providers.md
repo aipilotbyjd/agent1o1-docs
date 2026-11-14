@@ -38,4 +38,6 @@ With your own key, the provider bills you directly for the AI usage. Steps still
 
 ## Keep keys safe
 
+:::warning
 Keys are stored encrypted and are never shown again after you save them. Remove a key if it may have leaked.
+:::

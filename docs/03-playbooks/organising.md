@@ -28,4 +28,7 @@ Use **Duplicate** to copy a playbook and its steps. This is the quickest way to 
 
 ## Trash
 
-Deleted playbooks and agents go to **Trash**, where you can search for them and **restore** them. Delete from the Trash to remove one permanently. Permanent deletion can't be undone.
+Deleted playbooks and agents go to **Trash**, where you can search for them and **restore** them. Delete from the Trash to remove one permanently. 
+:::danger
+Permanent deletion can't be undone.
+:::

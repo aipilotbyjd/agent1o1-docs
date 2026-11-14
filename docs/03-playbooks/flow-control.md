@@ -27,7 +27,9 @@ Filters, routers and triggers all use the same conditions:
 | Empty checks | is empty, is not empty |
 | True or false | is true, is false |
 
+:::note[How comparisons work]
 Numbers typed as text compare as numbers ("5" equals 5). Anything else compares as exact text. "Is empty" is only true for nothing, blank text, or an empty list. The numbers 0 and false are values, not empty.
+:::
 
 ## Loop and Batch
 
@@ -56,4 +58,6 @@ A **Sub-workflow** step runs another playbook as one step. Use it to reuse logic
 
 ## Safety limits
 
+:::info
 Your plan limits how many runs happen at once and how many credits a single run may use, which stops a runaway loop from spending everything.
+:::

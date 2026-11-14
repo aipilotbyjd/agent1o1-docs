@@ -24,9 +24,13 @@ Open the agent, go to its abilities, and add what it needs. For app actions, cho
 
 When you add an app action, you decide which settings the agent can choose, and which are fixed.
 
-**Example:** for "Send Slack message", fix the channel to #support and let the agent write the message text. The agent can't post anywhere else, however it is asked.
+:::tip[Example]
+For "Send Slack message", fix the channel to #support and let the agent write the message text. The agent can't post anywhere else, however it is asked.
+:::
 
+:::warning
 Fix anything that could cause harm if it was wrong: accounts, folders, channels, recipients.
+:::
 
 ## Playbooks as abilities
 
@@ -34,4 +38,6 @@ A playbook's inputs become the things the agent needs to provide, and its output
 
 ## Only give what is needed
 
+:::tip
 An agent with fewer abilities makes fewer mistakes. Start small, then add more as you gain trust.
+:::

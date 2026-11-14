@@ -20,8 +20,10 @@ curl -X POST https://YOUR-API-HOST/api/hooks/YOUR_TOKEN \
 
 The request's body, query string and headers become available to the steps in your playbook.
 
-- The long code in the address is the password. Keep it secret.
-- If it leaks, **rotate** it in **Settings → Triggers**. The old address stops working at once.
+:::danger[Keep the address secret]
+The long code in the address is the password. If it leaks, **rotate** it in **Settings → Triggers**. The old address stops working at once.
+:::
+
 - You'll get a quick reply that the event was received. The playbook then runs in the background.
 
 ## Resume a waiting playbook

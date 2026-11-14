@@ -38,7 +38,9 @@ sidebar_position: 5
 
 ## Retrying safely
 
+:::tip
 Retry `429` and `5xx` errors after waiting, with a longer wait each time. Don't retry other `4xx` errors without changing the request.
+:::
 
 ## Rate limit
 

@@ -60,4 +60,6 @@ When you reach a limit, such as the number of playbooks, you'll see which one an
 
 We try again and email you. If it can't be fixed within a short grace period, the workspace is paused until payment is resolved.
 
+:::note
 Only owners and billing managers can change plans.
+:::

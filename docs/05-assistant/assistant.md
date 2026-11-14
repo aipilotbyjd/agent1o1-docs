@@ -20,7 +20,9 @@ Open **Assistant** from the sidebar to chat with it.
 
 ## You stay in control
 
+:::info
 The assistant asks before it does anything that changes something, and you can set rules for each ability: allow, ask, or block. Thumbs up or down on an answer helps it improve.
+:::
 
 ## Daily briefing
 
@@ -57,4 +59,6 @@ Ask the assistant to do something on a schedule or when something happens, for e
 
 ## Plans
 
+:::note[Pro plan]
 Some assistant features, such as Smart Inbox, text messaging and the sandbox computer, need the Pro plan or above. See [Plans](../08-billing/plans.md).
+:::

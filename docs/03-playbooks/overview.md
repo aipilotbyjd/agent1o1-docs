@@ -8,7 +8,9 @@ sidebar_position: 1
 
 A playbook is a series of steps you connect on a canvas. Each step does one thing, and passes its result to the next.
 
-**Example:** a new lead fills in your form → AI scores the lead → if the score is high, add them to your CRM and message your sales channel on Slack.
+:::tip[Example]
+A new lead fills in your form → AI scores the lead → if the score is high, add them to your CRM and message your sales channel on Slack.
+:::
 
 ## When to use a playbook
 

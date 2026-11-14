@@ -29,7 +29,9 @@ Two-factor authentication (2FA) asks for a code from an authenticator app each t
 3. Enter the code to confirm.
 4. **Save your recovery codes** somewhere safe. They are shown once.
 
-**Lost your phone?** Use a recovery code to sign in, then regenerate a new set in **Settings → Security**. Regenerating makes your old codes stop working.
+:::tip[Lost your phone?]
+Use a recovery code to sign in, then regenerate a new set in **Settings → Security**. Regenerating makes your old codes stop working.
+:::
 
 **Turn it off** in the same place. After that, sign-in only needs your password.
 
@@ -41,7 +43,9 @@ To change your email, enter the new address in **Settings → Profile**. We send
 
 ## Locked account
 
+:::info
 Too many wrong passwords in a row temporarily locks your account. Wait a few minutes and try again, or use **Forgot password**.
+:::
 
 ## Your profile
 

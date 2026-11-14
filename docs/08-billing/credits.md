@@ -40,7 +40,9 @@ Set a warning (for example at 75% and 90%) in your billing settings, and we'll t
 
 ## When credits run out
 
+:::warning
 Runs stop cleanly and the workspace owner is notified. Add credits and retry the failed runs from the Trail.
+:::
 
 ## Limits that protect you
 

@@ -26,7 +26,9 @@ The number of members you can have depends on your plan. See [Plans](../08-billi
 | **Member** | Run playbooks and chat with agents |
 | **Viewer** | Look, but not change |
 
+:::note[Missing a button?]
 Some actions need a specific permission, such as approving a request to publish, or managing billing. If a button is missing or greyed out, ask an admin to check your role.
+:::
 
 ## Several workspaces
 

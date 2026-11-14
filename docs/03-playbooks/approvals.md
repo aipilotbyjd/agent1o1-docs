@@ -25,7 +25,9 @@ If you have Slack connected for approvals, you can decide straight from the Slac
 
 ## Expiry
 
-Requests that nobody answers expire after a time your admin sets. Expired requests are treated as rejected.
+:::warning[Requests expire]
+Requests that nobody answers expire after a time your admin sets. Expired requests are treated as **rejected**.
+:::
 
 ## Who can approve
 

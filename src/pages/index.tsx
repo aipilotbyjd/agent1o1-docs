@@ -70,8 +70,8 @@ export default function Home(): ReactNode {
       <main>
         <div className="a1-stats">
           <div><b>10 min</b><span>to your first playbook</span></div>
-          <div><b>100+</b><span>apps to connect</span></div>
-          <div><b>40+</b><span>built-in AI steps</span></div>
+          <div><b>60+</b><span>apps to connect</span></div>
+          <div><b>15+</b><span>built-in AI steps</span></div>
           <div><b>REST API</b><span>and webhooks</span></div>
         </div>
         <section className="a1-section">

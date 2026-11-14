@@ -20,7 +20,9 @@ Open it in the **Trail**, select the step with the error, and read the message.
 | Model not available | Choose another model, or add your own key |
 | AI provider busy or paused | Try again shortly, or choose another model |
 
-After fixing, use **Retry**.
+:::tip
+After fixing the cause, use **Retry**. Steps that already finished are not repeated.
+:::
 
 ## A run is stuck
 
@@ -41,7 +43,9 @@ Read the list of problems shown. Typical causes: an empty required setting, a co
 
 ## An agent keeps asking permission
 
+:::note[This is expected]
 That's its autonomy setting. See [Autonomy and approvals](../04-agents/autonomy.md). An admin's workspace policy may also require it.
+:::
 
 ## An agent gives wrong answers
 
@@ -51,12 +55,18 @@ That's its autonomy setting. See [Autonomy and approvals](../04-agents/autonomy.
 
 ## I can't find something
 
+:::tip
 Look in **Trash**. Deleted items can be restored.
+:::
 
 ## A button is missing
 
+:::note
 Your role may not allow it. Ask an admin. Some features need a higher plan.
+:::
 
 ## Still stuck?
 
-Contact support from the help menu. Include the run's link from the Trail, which tells us exactly what happened.
+:::info[Contact support]
+Use the help menu in the app. Include the run's link from the Trail, which tells us exactly what happened.
+:::

@@ -14,6 +14,10 @@ The **Vault** keeps sensitive values (passwords, API tokens, signing keys) encry
 2. Add a secret. Give it a **name** such as `MY_SERVICE_TOKEN`, enter the **value**, and add a short note on what it's for.
 3. Save. The value is encrypted and **can't be read back later**.
 
+:::warning
+Once saved, a secret's value can't be read back. To change it, edit the secret and enter a new value.
+:::
+
 ## Use a secret
 
 In a step's settings, choose the secret from the Vault instead of typing the value. It is only used when the step runs, and it's hidden in run history.

@@ -27,4 +27,6 @@ Build a set of test questions with the answers you expect, then run them after e
 3. Run the suite and review which cases passed.
 4. If a change made things worse, restore the previous version of the agent.
 
+:::tip
 Include tricky cases, like questions the agent should refuse.
+:::

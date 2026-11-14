@@ -28,8 +28,12 @@ const config: Config = {
   tagline: 'Help and guides for Agent1o1',
   favicon: 'img/favicon.ico',
 
+  headTags: [
+    {tagName: 'link', attributes: {rel: 'preconnect', href: 'https://fonts.googleapis.com'}},
+    {tagName: 'link', attributes: {rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous'}},
+  ],
   stylesheets: [
-    'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap',
+    'https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Instrument+Sans:wght@500;600;700&display=swap',
   ],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -96,6 +100,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
+      logo: {alt: 'Agent1o1', src: 'img/a-logo-light-256.png', srcDark: 'img/a-logo-dark-256.png', href: '/', width: 40, height: 40},
       links: [
         {title: 'Learn', items: [
           {label: 'Quickstart', to: '/docs/welcome/quickstart'},
@@ -119,8 +124,9 @@ const config: Config = {
     docs: {sidebar: {hideable: true, autoCollapseCategories: true}},
     tableOfContents: {minHeadingLevel: 2, maxHeadingLevel: 3},
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.vsDark,
+      darkTheme: prismThemes.vsDark,
+      additionalLanguages: ['bash', 'json', 'php', 'yaml', 'javascript', 'python'],
     },
   } satisfies Preset.ThemeConfig,
 };

@@ -46,4 +46,6 @@ Runs update live on screen. You don't need to refresh.
 
 ## How long history is kept
 
+:::note
 Old run details are removed after a while. Download any files you need to keep.
+:::

@@ -8,7 +8,9 @@ sidebar_position: 1
 
 A **Page** puts a simple web page in front of a playbook. Visitors fill in a form, the playbook runs, and they see the result. They don't need an account.
 
-**Examples:** a "summarise this document" tool, a lead qualification form, a quote calculator.
+:::tip[Examples]
+A "summarise this document" tool, a lead qualification form, a quote calculator.
+:::
 
 ## Create a page
 
@@ -28,6 +30,9 @@ A **Page** puts a simple web page in front of a playbook. Visitors fill in a for
 
 ## Keep in mind
 
-- Every submission runs your playbook and uses your credits. Use a password if the page shouldn't be open to everyone.
+:::warning[Submissions use your credits]
+Every submission runs your playbook and uses your credits. Use a password if the page shouldn't be open to everyone.
+:::
+
 - Teammates can leave comments on a page while you build it.
 - Public pages need the Starter plan or above. Removing Agent1o1 branding needs Pro.

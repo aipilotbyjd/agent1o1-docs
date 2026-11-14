@@ -8,7 +8,9 @@ sidebar_position: 1
 
 An agent is an AI that works toward a goal. You give it instructions and abilities, and it decides which to use. Unlike a playbook, its steps aren't fixed.
 
-**Examples:** a support agent that answers questions from your help docs, a research agent that searches the web and writes a summary, a scheduling agent that books meetings.
+:::tip[Examples]
+A support agent that answers questions from your help docs, a research agent that searches the web and writes a summary, a scheduling agent that books meetings.
+:::
 
 ## Create one
 
